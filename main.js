@@ -23,9 +23,23 @@ const words = [
   "bravoo",
   "dandon",
   "strong",
+  "puzzle",
+  "banana",
+  "planet",
+  "winter",
+  "wonder",
+  "energy",
+  "leader",
+  "accept",
+  "reflect",
+  "candle",
+  "island",
+  "jacket",
+  "orange",
+  "kitten",
 ];
 wordToGuess = words[Math.floor(Math.random() * words.length)].toUpperCase();
-console.log(wordToGuess);
+// console.log(wordToGuess);
 let messageArea = document.querySelector(".message");
 
 // manage hints
@@ -96,7 +110,7 @@ function geneateInput() {
 const guessButton = document.querySelector(".check");
 guessButton.addEventListener("click", handleGuesses);
 
-console.log(wordToGuess);
+// console.log(wordToGuess);
 
 function handleGuesses() {
   let sucessGuess = true;
