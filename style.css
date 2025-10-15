@@ -201,6 +201,7 @@ footer {
       display: flex;
       flex-direction: column;
       width: 100%;
+      margin-bottom: 50px;
       .key-color {
         width: 90%;
         padding: 10px 35px;
